@@ -1,4 +1,4 @@
-package order;
+package models;
 
 import models.Order;
 import java.util.Random;

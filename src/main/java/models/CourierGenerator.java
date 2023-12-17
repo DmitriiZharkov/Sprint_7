@@ -1,4 +1,4 @@
-package courier;
+package models;
 
 import models.Courier;
 import utils.Utils;

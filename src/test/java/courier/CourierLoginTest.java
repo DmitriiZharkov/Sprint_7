@@ -5,7 +5,9 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import models.Courier;
 import models.CourierCreds;
+import models.CourierGenerator;
 import org.apache.http.HttpStatus;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -96,5 +98,9 @@ public class CourierLoginTest {
                 .body("message", equalTo("Учетная запись не найдена"));
     }
 
+    @After
+    public void tearDown() {
+        courierClient.deleteCourier(courier);
+    }
 
 }
