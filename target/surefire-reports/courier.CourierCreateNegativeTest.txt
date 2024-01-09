@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: courier.CourierCreateNegativeTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 1.464 s <<< FAILURE! - in courier.CourierCreateNegativeTest
+createSameCourierReturnConflictTest(courier.CourierCreateNegativeTest)  Time elapsed: 1.251 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at courier.CourierCreateNegativeTest.createSameCourierReturnConflictTest(CourierCreateNegativeTest.java:34)
+
+noPassReturnBadRequest(courier.CourierCreateNegativeTest)  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at courier.CourierCreateNegativeTest.noPassReturnBadRequest(CourierCreateNegativeTest.java:62)
+
+noLoginReturnBadRequest(courier.CourierCreateNegativeTest)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at courier.CourierCreateNegativeTest.noLoginReturnBadRequest(CourierCreateNegativeTest.java:49)
+

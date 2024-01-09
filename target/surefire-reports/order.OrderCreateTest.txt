@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: order.OrderCreateTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.042 s <<< FAILURE! - in order.OrderCreateTest
+createOrder[Предпочитаемые цвета](order.OrderCreateTest)  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at order.OrderCreateTest.createOrder(OrderCreateTest.java:47)
+
+createOrder[Предпочитаемые цвета](order.OrderCreateTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at order.OrderCreateTest.createOrder(OrderCreateTest.java:47)
+
+createOrder[Предпочитаемые цвета](order.OrderCreateTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at order.OrderCreateTest.createOrder(OrderCreateTest.java:47)
+
+createOrder[Предпочитаемые цвета](order.OrderCreateTest)  Time elapsed: 0.012 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at order.OrderCreateTest.createOrder(OrderCreateTest.java:47)
+

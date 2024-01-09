@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: courier.CourierLoginTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.019 s <<< FAILURE! - in courier.CourierLoginTest
+noPassReturnError(courier.CourierLoginTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at courier.CourierLoginTest.setup(CourierLoginTest.java:24)
+
+wrongLoginReturnError(courier.CourierLoginTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at courier.CourierLoginTest.setup(CourierLoginTest.java:24)
+
+wrongPassReturnError(courier.CourierLoginTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at courier.CourierLoginTest.setup(CourierLoginTest.java:24)
+
+wrongLoginAndPassReturnError(courier.CourierLoginTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at courier.CourierLoginTest.setup(CourierLoginTest.java:24)
+
+noLoginReturnError(courier.CourierLoginTest)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at courier.CourierLoginTest.setup(CourierLoginTest.java:24)
+
+loginCourierTest(courier.CourierLoginTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at courier.CourierLoginTest.setup(CourierLoginTest.java:24)
+

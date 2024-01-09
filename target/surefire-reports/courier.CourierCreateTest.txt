@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: courier.CourierCreateTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in courier.CourierCreateTest
+createCourierTest(courier.CourierCreateTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at courier.CourierCreateTest.createCourierTest(CourierCreateTest.java:29)
+
